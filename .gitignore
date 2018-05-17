@@ -1,0 +1,31 @@
+# Node.js files
+node_modules
+grunt.restart
+coverage
+
+# Never check in keys
+keys.js*
+cbtn_token_credentials.json
+
+# precommit-hook jshint
+.jshintignore
+.jshintrc
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+
+# Webstorm Files
+.idea
+
+# VSCode Files
+.vscode
+
+build/deploy.config
+
+artifact.config
+deployed.json
+
+dump.rdb
